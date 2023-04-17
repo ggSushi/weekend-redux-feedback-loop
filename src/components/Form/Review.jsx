@@ -25,7 +25,7 @@ function ReviewPage() {
       alert(`Something went wrong.`);
     })
     
-    console.log(`Gonna push history`);
+    // console.log(`Gonna push history`);
     history.push('/thank-you-final-step');
   }
 

@@ -7,6 +7,7 @@ import Understanding from '../Form/Understanding.jsx';
 import Support from '../Form/Support.jsx';
 import Comment from '../Form/Comment.jsx';
 import Review from '../Form/Review.jsx'
+import ThankYou from '../Form/ThankYou.jsx'
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
         </Route>
         <Route exact path="/thank-you-final-step">
           {/* ThankYou component here */}
+          <ThankYou />
         </Route>
       </Router>
     </div>

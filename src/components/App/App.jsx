@@ -5,6 +5,7 @@ import {HashRouter as Router, Route, Link} from 'react-router-dom';
 import Feeling from '../Form/Feeling.jsx'
 import Understanding from '../Form/Understanding.jsx';
 import Support from '../Form/Support.jsx';
+import Comment from '../Form/Comment.jsx';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         </Route>
         <Route exact path="/comment-step-4">
           {/* Comment component here */}
+          <Comment />
         </Route>
         <Route exact path="/review-step-5">
           {/* Review component here */}

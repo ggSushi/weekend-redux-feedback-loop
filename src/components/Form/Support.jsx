@@ -26,7 +26,7 @@ function SupportInput() {
   return(
     <>
       <h3>On a scale from 1 to 5, how supported did you feel today?</h3>
-      <input onChange={handleChange} type="number" required />
+      <input onChange={handleChange} type="number" placeholder="Please leave a rating" required />
       <button onClick={nextPage} >Next</button>
     </>
   )

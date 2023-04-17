@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import './App.css';
 import {HashRouter as Router, Route, Link} from 'react-router-dom';
-import FeelingInput from '../Form/Feeling.jsx'
+import Feeling from '../Form/Feeling.jsx'
 
 function App() {
 
@@ -15,6 +15,7 @@ function App() {
       <Router>
         <Route exact path="/">
           {/* Feeling component here*/}
+          <Feeling />
         </Route>
         <Route exact path="/understanding-page-2">
           {/* Understanding component here */}

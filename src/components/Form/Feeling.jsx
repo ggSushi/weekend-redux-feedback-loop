@@ -15,12 +15,11 @@ function FeelingInput() {
   }
 
   const nextPage = () => {
-    console.log(feelingInput)
     if (feelingInput > 0 && feelingInput < 6) {
       history.push('/understanding-page-2');
     } else {
-      alert(`Please enter a value between 1 (the least) to 5 (the most)`);
-      return
+      alert(`Please enter a value between 1 to 5.`);
+      return;
     }
   }
 

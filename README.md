@@ -1,9 +1,25 @@
-# Project Name
+# **Feedback Form**
+---
+### **_Multi-step Feedback form_**
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+This is a simple, multi-step reflection/feedback form that allows the user to input their feedback on content they learned that day, as well as leave a comment to further describe their thoughts.
 
-## Description
+---
+## Database Setup
 
-Your project description goes here. What problem did you solve? How did you solve it?
+Create your database and tables using the provided `data.sql` file. Start the server.
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+## Install Dependencies
+
+1. `npm install`
+2. `npm run server`
+3. `npm run client`
+
+---
+
+### **_Technologies Used:_**
+- JavaScript, HTML, CSS
+- React, React Redux
+- Axios
+- NodeJS, ExpressJS
+- PostgreSQL
